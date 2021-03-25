@@ -1,0 +1,76 @@
+.header{
+    font-size: x-large;
+    font-style: oblique;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+}
+
+.head{
+    font-size: xxx-large;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+}
+
+.Bird{
+    background-color: #add8e6;
+    font-size: xx-large;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.Chameleon{
+    font-size: xx-large;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    border: solid;
+    padding: 10px;
+}
+
+.Bear{
+    background-color: #add8e6;
+    font-size: xx-large;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.Panda{
+    font-size: xx-large;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    border: solid;
+    padding: 10px;
+}
+
+a:link{
+    color: aqua;
+}
+
+.Bear:hover{
+    transform: scale(1.05);
+}
+
+.Bird:hover{
+    transform: scale(1.05);
+}
+
+.Chameleon:hover{
+    opacity: 0.8;
+}
+
+.Panda:hover{
+    opacity: 0.8;
+}
